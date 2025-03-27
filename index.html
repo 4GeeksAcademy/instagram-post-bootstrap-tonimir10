@@ -58,15 +58,36 @@
 
 
     <div class="container-fluid p-2">
-      <ul class="nav justify-content-center">
+      <ul class="nav justify-content-center" id="myTab" role="tablist">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#"><i
+          <a class="nav-link active" id="cuadricula-tab" data-bs-toggle="tab" data-bs-target="#cuadricula" type="button"
+          role="tab" aria-controls="cuadricula" aria-selected="true" href="#"><i
             class="fa-solid fa-table-cells"></i></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"><i class="fa-solid fa-square"></i></a>
+          <a class="nav-link" href="#"id="lista-tab" data-bs-toggle="tab" data-bs-target="#lista" type="button"
+          role="tab" aria-controls="lista" aria-selected="false"><i class="fa-solid fa-square"></i></a>
         </li>
-        
+        </ul>
+        <div class="tab-content" id="myTabContent">
+          <div class="tab-pane fade show active overflow-hidden" id="cuadricula" role="tabpanel" aria-labelledby="cuadricula-tab">
+            <div class="row">
+              <div class="col-4"><img style="height:210px;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdeBwz9ndLOqs7rjc2hsAq9aWu1DfddLMEDg&s"  class="img-fluid w-100" /></div>
+              <div class="col-4"><img style="height:210px;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSC_Xu55ulHbP9oKQmlGzr_WYnXlEBlE6XEIw&s"  class="img-fluid w-100"/></div>
+              <div class="col-4"><img style="height:210px;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS592U-ivX6C75Kd4F9Y1nCtCq59R4M1jIu5g&s"  class="img-fluid w-100"/></div>
+            </div>
+            <div class="row">
+              <div class="col-4"><img style="height:210px;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdeBwz9ndLOqs7rjc2hsAq9aWu1DfddLMEDg&s"  class="img-fluid w-100" /></div>
+              <div class="col-4"><img style="height:210px;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSC_Xu55ulHbP9oKQmlGzr_WYnXlEBlE6XEIw&s"  class="img-fluid w-100"/></div>
+              <div class="col-4"><img style="height:210px;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS592U-ivX6C75Kd4F9Y1nCtCq59R4M1jIu5g&s"  class="img-fluid w-100"/></div>
+            </div>
+            <div class="row">
+              <div class="col-4"><img style="height:210px;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdeBwz9ndLOqs7rjc2hsAq9aWu1DfddLMEDg&s"  class="img-fluid w-100" /></div>
+              <div class="col-4"><img style="height:210px;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSC_Xu55ulHbP9oKQmlGzr_WYnXlEBlE6XEIw&s"  class="img-fluid w-100"/></div>
+              <div class="col-4"><img style="height:210px;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS592U-ivX6C75Kd4F9Y1nCtCq59R4M1jIu5g&s"  class="img-fluid w-100"/></div>
+            </div>
+          </div>
+        </div>
     </div>
     
 
